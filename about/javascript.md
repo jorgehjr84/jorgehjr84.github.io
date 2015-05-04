@@ -18,10 +18,10 @@ Undefined - A variable which has not been assigned a value.
 
 Basic Operators
 
-+ - This is the addition operator for adding numeric values
++ This is the addition operator for adding numeric values
 
--  - This is the subtraction operator for subtraction numeric values.
+- This is the subtraction operator for subtraction numeric values.
 
-/ - This is the division operator used to divide numeric values.
+/ This is the division operator used to divide numeric values.
 
 
