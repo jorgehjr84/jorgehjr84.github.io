@@ -21,10 +21,16 @@
     `/` This is the division operator used to divide numeric values.
     `*` This multiplies two values.
     `()` This is parenthesis and is computed first due to the order of operations.
+    
+    
+    
+###Comparison Operators
+
     '===' This is the equality operator. It also has an 'EVIL Twin' in ==. The difference between the two is that '==='  does the same as '==' except no type conversion is done.
     ex - "abc" == new String("abc")    // true
          "abc" === new String("abc")   // false
          Best practice is to use '==='
+    <= - Is less than or equal to comparision.
 
 ###More JavaScript!! :grimacing:
 
@@ -58,5 +64,16 @@
      In the JavaScript guide it gives the anaology of a cup to objects. A cup can have a color, shape, size, etc. So can Objects.
      
      
-    
+     
+     
+     
+###Calling Up A Function
+
+    var myInfo = function(){
+        var myName = Jorge
+        var myAge = 30
+        var myQuality = Awesomeness
+    };
+    myInfo();
+
 
