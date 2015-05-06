@@ -92,3 +92,6 @@
     break;
         }
     }
+    'Return Statement' - The return statement specifies the value returned from a function.
+    'Nested Functions' - You can call a function from within a function. The nested function(inner) is private to its (outer) fucntion. ( I don't fully understand this yet.)
+    
