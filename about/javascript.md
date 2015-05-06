@@ -95,3 +95,26 @@
     'Return Statement' - The return statement specifies the value returned from a function.
     'Nested Functions' - You can call a function from within a function. The nested function(inner) is private to its (outer) fucntion. ( I don't fully understand this yet.)
     
+    
+    
+    
+    
+###Arrays Yay!! :smile:
+
+    'Arrays' - Arrays are basically a way to make a list in Javascript and call upon certain portions of that list as you need it.
+    For example
+    var fruits = ['Bannana', 'Apple', 'Oranges'];
+    
+
+    Now if I want to call 'Apples' I would type
+     fruits[1];
+     
+    There is another function we can use in arrays called .lentgh. This tells us how long our array is. So if we take the example above
+    fruit.length
+    What would be returned is [2]
+    
+    
+There are some other commands we can use with Arrays. For example Array.push and Array.pop
+
+     Array.push - attaches a some on the end of your existing array. 
+     Array.pop - Removes something from your array and places it on the outside.
