@@ -38,7 +38,7 @@
     Functions -  A function is a procedure that calculates value or performs a task.
     
 
-    For Loops - This is an easy way to keep repeating something. Instead of typing the same code over and over, you can just put it in a loop.
+    Loops - This is an easy way to keep repeating something. Instead of typing the same code over and over, you can just put it in a loop.
     For Loop - This is a loop that keeps repeating until a value is False.
     While Loop - This is a cleaner way of writing a loop. Below is an example of a for loop and a while loop
     - for (var i; i < 10; i++);
@@ -83,3 +83,12 @@
 
     '//' - grays out your text. This becomes really useful if you want to leave notes to give a little detail about your code.
     '.length' - calculates the length of a string and puts it into a numeric value.
+    'console.log' - This command outputs a message to the web console.
+    'Integers' - In JavaScript integers are whole numbers.
+    'Floating Point Literals' - Numbers with a decimal point.
+    'Break Statement' - Use a break statement to terminate a loop. 
+    Ex. for(i=0;i < a.length;i++){
+    if(a[i]== theValue){
+    break;
+        }
+    }
