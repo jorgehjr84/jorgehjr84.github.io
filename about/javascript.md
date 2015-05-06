@@ -77,3 +77,9 @@
     myInfo();
 
 
+
+
+###More Javascript again
+
+    '//' - grays out your text. This becomes really useful if you want to leave notes to give a little detail about your code.
+    '.length' - calculates the length of a string and puts it into a numeric value.
