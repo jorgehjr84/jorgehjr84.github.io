@@ -1,3 +1,6 @@
+---
+---
+
 
 ##Growth vs Mindset Essay (Outline)
 
