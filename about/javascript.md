@@ -54,6 +54,26 @@ if Else Statements - This lets you perform a task IF the statement is TRUE, if t
     } else {
          boo
     }
+    
+    
+Switch - You can use the 'switch' statement if you want one out of many blocks of code to be executed. 
+For example
+
+    var favCar = "Toyota";
+    
+    switch(favCar){
+    
+        case "toyota":
+            document.write("toyota");
+            break
+        case "Honda":
+            document.write("Honda");
+            break
+        case "Ford":
+            document.write("Ford");
+            break
+        }
+    
 ```    
 
 ```
