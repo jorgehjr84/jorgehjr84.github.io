@@ -38,7 +38,7 @@
     Functions -  A function is a procedure that calculates value or performs a task.
     
 
-    For Loops - This is an easy way to keep repeating something. Instead of typing the same code over and over, you can just put it in a loop.
+    Loops - This is an easy way to keep repeating something. Instead of typing the same code over and over, you can just put it in a loop.
     For Loop - This is a loop that keeps repeating until a value is False.
     While Loop - This is a cleaner way of writing a loop. Below is an example of a for loop and a while loop
     - for (var i; i < 10; i++);
@@ -77,3 +77,44 @@
     myInfo();
 
 
+
+
+###More Javascript again
+
+    '//' - grays out your text. This becomes really useful if you want to leave notes to give a little detail about your code.
+    '.length' - calculates the length of a string and puts it into a numeric value.
+    'console.log' - This command outputs a message to the web console.
+    'Integers' - In JavaScript integers are whole numbers.
+    'Floating Point Literals' - Numbers with a decimal point.
+    'Break Statement' - Use a break statement to terminate a loop. 
+    Ex. for(i=0;i < a.length;i++){
+    if(a[i]== theValue){
+    break;
+        }
+    }
+    'Return Statement' - The return statement specifies the value returned from a function.
+    'Nested Functions' - You can call a function from within a function. The nested function(inner) is private to its (outer) fucntion. ( I don't fully understand this yet.)
+    
+    
+    
+    
+    
+###Arrays Yay!! :smile:
+
+    'Arrays' - Arrays are basically a way to make a list in Javascript and call upon certain portions of that list as you need it.
+    For example
+    var fruits = ['Bannana', 'Apple', 'Oranges'];
+    
+
+    Now if I want to call 'Apples' I would type
+     fruits[1];
+     
+    There is another function we can use in arrays called .lentgh. This tells us how long our array is. So if we take the example above
+    fruit.length
+    What would be returned is [2]
+    
+    
+There are some other commands we can use with Arrays. For example Array.push and Array.pop
+
+     Array.push - attaches a some on the end of your existing array. 
+     Array.pop - Removes something from your array and places it on the outside.
