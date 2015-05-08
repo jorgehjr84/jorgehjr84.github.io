@@ -44,6 +44,17 @@ For Loop - This is a loop that keeps repeating until a value is False.
 While Loop - This is a cleaner way of writing a loop. Below is an example of a for loop and a while loop
 - for (var i; i < 10; i++);
 - while ( i < 10)
+
+- do while loops - This creates a loop that keeps running until a condition evaluates to 'False'
+    An example of this would be....
+    
+    var me = 2;
+    do {
+        me += 1;
+    console.log(me);
+    }while (me < 5);
+    
+    
 ```
 
 ```   
