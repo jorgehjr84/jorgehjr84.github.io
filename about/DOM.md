@@ -14,13 +14,15 @@
 
 
    - The `window.document` returns a refernce to the document contained in a window.
-syntax ```doc = window.document ```
+
+    syntax ```doc = window.document ```
 
    
 
 
    - The `window.history` returns a reference to the `History` object.
-syntax ```var historyObj = window.history;```
+
+    syntax ```var historyObj = window.history;```
 
    
 
