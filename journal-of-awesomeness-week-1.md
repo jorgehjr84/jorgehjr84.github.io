@@ -16,22 +16,22 @@ of my favorite takeaways from week one....
 Having a growth mindset can have a drastic impact on how we learn. It is based on the theory that the harder we work at 
 something, the better or smarter we will get at it. It's a huge confidence booster.
 
-  * What do developers do?
+ * What do developers do?
 Developers make applications to make task easier.
 
-  * Inputs, Outputs, Side Effects
+ * Inputs, Outputs, Side Effects
 This is something essential remember. You must always ask what will the "Inputs, Outputs, and Side Effects" be when you are creating something. Whether it be a function, object, or anything.
 
-  * We learned about "User Stories"
+ * We learned about "User Stories"
 A someone can do something, so that someone else can benefit.
 
 
-  * The web is run by Linux
+ * The web is run by Linux
 
-  * Github
-  * Navigating through Github and workflow best practices.
+ * Github
+ * Navigating through Github and workflow best practices.
  
-  * Comand Line, Comand Line, Comand Line
+ * Comand Line, Comand Line, Comand Line
 This has probably been my favorite aspect of week one. We have learned to do some much through the command line. It has
 opened up a new world for us, and it feels like knowing how to perform functions through the command line is almost like  
 some super power we never knew we had.
