@@ -1,11 +1,11 @@
 ## Week 1 at TIY what a Roller Coaster
 
-After one week at TIY, it has been a roller coaster, one minute you feel good about where you are at in the process, the next,
+After one week at TIY, it has been a roller coaster. One minute you feel good about where you are in the process, the next,
 you are totally drowning in information. It has been a humbling experiance and has also taught me a lot about myself as a person.
 To the say the course is difficult is an understatement. I have worked at many tech convections in the past, filled with 
-developers and I would hear them say you have to think like an enigneer. I never know what they meant, but now that I have been 
+developers and I would hear them say you have to think like an enigneer. I never knew what they meant, but now that I have been 
 at TIY for a week, I think I know exactly what they meant. This has been a learning experiance like none I've ever been through 
-before. You have to think outside of the box and come at problems from multiple angels. You also have to be able to find a lot of
+before. You have to think outside of the box and come at problems from multiple angles. Think like an engineer. You also have to be able to find a lot of
 the questions to your answers from various sources. So you learn how to be very resourceful. Although the course has been 
 stressful at times, it has been developed in a genius way. TIY takes you out of your comfort zone and helps you surprise 
 yourself everyday. It can be an emotional roller coaster where you feel great, then you feel dumb, then you feel great again, 
