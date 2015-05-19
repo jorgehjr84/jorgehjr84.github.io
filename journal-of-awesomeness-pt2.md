@@ -12,17 +12,17 @@ View- Interface to view this thing.
 
 ```
 
-  *The importance of User Stories
+  * The importance of User Stories
 ```
 The importance of user stories is extremely high. The user stories not only let you judge scope, but they help you code from both perspectives( outside in/ inside out)
   ```
   
-  *Developer Tools in a browser
+  * Developer Tools in a browser
 ``` 
 One of the funnest tools we learned how to use in week 2 was the developer tools. Basically you can inspect any website's elements, functions, and files from the developer tools view in your browser.
 
 ```
- *The link between JavaScript, HTML, and CSS
+ * The link between JavaScript, HTML, and CSS
 ```
 Coming to TIY I did not really have a full understanding of the link between HTML, CSS, and JS. After week 2 I have learned the importance of each. They all have their roles to play. Linking them together is a vital step in building the web application, and that is something we have also learned in week 2.
 ```
