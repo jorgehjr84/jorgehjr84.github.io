@@ -60,6 +60,21 @@ font-style, font-variant, font-weight, font-stretch, font-size, line-height, fon
 ```
 
 
+##Text Properties
+
+```
+text-align, text-align-last, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, text-indent, text-orientation, text-overflow, text- rendering, text-shadow, text-transform, text-underline-position
+
+*
+
+
+
+
+```
+
+
+
+
 * Responsive Design  
 ```
 The strategy of making a site respond to the browser and device thats using it.
