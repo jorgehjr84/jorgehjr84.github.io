@@ -45,6 +45,19 @@ ex. .clearfix {
 ```
 
 
+##Font Properties
+
+```
+font-style, font-variant, font-weight, font-stretch, font-size, line-height, font-family.
+
+* font-style: (inital value normal) font-style lets you chose between italic, oblique, and inherit font-styles.
+* font-variant: font-variant sets the font variant that will be used for the text content of an element. (from sitepoint) I don't yet understand font-variants.
+* font-weight: This specifies the font-weight or boldness or the text.
+* font-stretch: This is a way to adjust the fonts width for a lack of a better description. 
+* font-size: This is how you can change the size of font in your document.
+* line-height: on block level elements, line-height specifies the minimum height of the box.
+* font-family: This lets you specifiy the list of font- families for your CSS doc.
+```
 
 
 * Responsive Design  
