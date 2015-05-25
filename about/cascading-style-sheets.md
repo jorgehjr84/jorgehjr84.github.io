@@ -99,6 +99,25 @@ This will place the string "hi" before each li
 
 ```
 
+##@Font-Face
+```
+* This allows you to specifiy online fonts to load in your webpage.
+```
+
+## Padding
+```
+* Padding allows you to set the spacing on all sides of the element. 
+```
+##:Hover
+```
+The hover function allows you to set a certain action off when the mouse hovers over a designated element. For example...
+li:hover{
+cursor:pointer;
+}
+
+This brings up the pointer whenever you hover over the 'li's'
+```
+
 * Responsive Design  
 ```
 The strategy of making a site respond to the browser and device thats using it.
