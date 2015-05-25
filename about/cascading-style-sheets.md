@@ -72,12 +72,21 @@ text-align, text-align-last, text-decoration, text-indent,text-shadow.
 *text-shawdow: This adds a shadow to the text element.
 
 
-
-
 ```
 
 
+##Line Properties
 
+```
+line-height, line-break,
+
+*line-break: This property is used to determine how a line will break. Examples of this are
+line-break:auto (break text using the default line break rule)
+line-break:loose (break text using the the line break rule that the line is shorter like a newspaper)
+line-break:normal (break using the common line break rule)
+line-break:strict ( break using a strict line break rule)
+
+```
 
 * Responsive Design  
 ```
