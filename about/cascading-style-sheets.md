@@ -88,6 +88,17 @@ line-break:strict ( break using a strict line break rule)
 
 ```
 
+## ::Before/::After
+```
+*The before and after functions allow you to do something before or after your element. For ex.
+li::before{
+  content:"hi";
+}
+
+This will place the string "hi" before each li
+
+```
+
 * Responsive Design  
 ```
 The strategy of making a site respond to the browser and device thats using it.
