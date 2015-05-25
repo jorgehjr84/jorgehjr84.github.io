@@ -63,9 +63,13 @@ font-style, font-variant, font-weight, font-stretch, font-size, line-height, fon
 ##Text Properties
 
 ```
-text-align, text-align-last, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, text-indent, text-orientation, text-overflow, text- rendering, text-shadow, text-transform, text-underline-position
+text-align, text-align-last, text-decoration, text-indent,text-shadow.
 
-*
+*text-align: This is just a way to align the text in your document, there are many ways to align the text.
+*text-align-last: This property is used to align the last line of a block or a line.
+*text-decoration: This property is used to set the text formatting to underline, over-line, line through, or blink.
+*text-indent: Self explaininng, text indent is just the horizontal space before the beginning of a line.
+*text-shawdow: This adds a shadow to the text element.
 
 
 
