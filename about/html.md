@@ -27,3 +27,14 @@ HTML it would look like this....
 </p>
 ```
 
+There are some "non-word" elements in tags. We already spoke about the angled brackets "< >", but there is also 
+the " = " that is used. 
+The " ! " also shows up in certain tags.
+" ... " is another that I have seen.
+
+Here are some common tags used....
+
+
+
+
+
