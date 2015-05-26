@@ -10,7 +10,7 @@ var myCity = " My Home town is Bronx,NY";
 
 So if I wanted to see what my hometown was, all I would have to type is 
 ```
-return = myCity; 
+console.log(myCity); 
 ```
 and it would print out all of the info.... " My Home town is Bronx,NY"
 
