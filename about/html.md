@@ -36,5 +36,15 @@ Here are some common tags used....
 
 
 
+```
+<!doctype html>
+* This doctype declaration is not an HTML tag, but it is just as important. It is an instruction to the web browser about what
+version of the markup language the page is written in.
+```
+next is ...
 
+```
+<html class="no-js" lang="">
+*  This tells the HTML document what class we need to use for the JS..... ( I need to look into this concept more)
+```
 
