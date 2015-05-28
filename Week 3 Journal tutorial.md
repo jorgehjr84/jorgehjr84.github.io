@@ -1,7 +1,7 @@
 ## Objects
 
-In javascript we love using something called variables. A variable is a way to store information and being able to call back on 
-information in a simplier way. For ex  I would do this.....
+In javascript we love using something called variables. A variable is a way to store information, and then call on 
+information at a later time. For example  I would do this.....
 
 
 ```
@@ -15,9 +15,7 @@ console.log(myCity);
 and it would print out all of the info.... " My Home town is Bronx,NY"
 
 
-This is really cool, but what I had a lot of information about myself that I wanted to be able to call upon fairly easily. Here is
-where objects come in. Think of an Object as a cup. It has multiple elements for lack of a better work. A cup has a shape, a color,
-a size, etc.... So can objects. So an example of an object would be as follows...
+This is really cool, but what if I had a lot of information about myself that I wanted to be able to call upon fairly easily. This is where objects come in. Think of an almost like a cup. It has multiple elements for lack of a better word. A cup has a shape, a color, a size, etc.... So can objects. So an example of an object would be as follows...
 
 ```
     var jorge = {
