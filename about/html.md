@@ -121,3 +121,34 @@ The option tag is nested within the <select tag> and it represents the various f
 This element represents a multi-line plain text editing control. (From MDN, I need to find a good example)
 
 ```
+
+###Tables and stuff
+```
+<table> 
+The table tag in html is good for drawing tables or grids with data inside of them.
+
+<caption>
+This represents the title of the table.
+
+<col><colgroup>
+Col represents a column in the table and colgroup represents a group of columns.
+
+<tbody>
+This defines one or mor <tr>'s in a table. ( Not fully understanding when to use these yet)
+
+<thead> 
+thead defines a set of rows defining the head of columns.
+
+<tfoot> 
+This element is used to define the tables footer area.
+
+<tr>
+tr defines a row of cells
+
+<td>
+This element defines a cell of a table.
+
+<th>
+Defines a cell that is a header for a group of cells for a table.
+
+```
