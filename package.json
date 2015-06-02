@@ -1,0 +1,20 @@
+{
+    "name": "jorgehjr84.github.io",
+    "version": "0.0.0",
+    "description": "--- permalink: index.html ---",
+    "main": "index.js",
+    "scripts": {
+        "test": "browser-sync start --server --files='js/**/*.js,test/spec/**/*.js' --startPath test/index.html",
+        "start": "browser-sync start --server --files='index.html, css/,js/*.js'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jorgehjr84/jorgehjr84.github.io-.git"
+    },
+    "author": "Jorge Hernandez",
+    "license": "CC0",
+    "bugs": {
+        "url": "https://github.com/jorgehjr84/jorgehjr84.github.io-/issues"
+    },
+    "homepage": "https://github.com/jorgehjr84/jorgehjr84.github.io-"
+}
