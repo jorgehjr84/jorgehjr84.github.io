@@ -150,6 +150,26 @@ li {
   border-top: 1px solid white;
   margin-top: .1em;
 }
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: .5em;
+  left: 16em;
+  width: 2em;
+}
+a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: .75em;
+  position: relative;
+  bottom: .35em;
+}
+a .arrow {
+  color: white;
+  width: 2.3em;
+  height: 2em;
+}
 
 /* ==========================================================================
    Helper classes
