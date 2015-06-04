@@ -92,10 +92,10 @@ textarea {
    ========================================================================== */
 
 body {
-  /*background-image: url("../pictures/background-1.jpg");
+  background-image: url("../pictures/background-1.jpg");
   background-repeat: no-repeat;
-  background-size: 50%;*/
-  background-color: darkgrey;
+  background-size: 100%;
+  */ background-color: darkgrey;
   font-family: font-family: 'Abel', sans-serif;
   color: white;
   font-size: 2em;
@@ -103,32 +103,55 @@ body {
 .container {
   width: 100%;
 }
-
-/*.header {
+.header {
+  display: inline-block;
   width: 100%;
-  display: inline-block;*/
-
-
 }
-.myName {
-  width: 30%;
+.home {
+  width: 40%;
   margin: 0;
 }
-.tabs {
+ul {
+  margin: 0;
+}
+.header ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 2em;
+}
+
+/*.myName {
+  width: 30%;
+  margin: 0;
+}*/
+
+
+/*.tabs {
   width: 20%;
   display: inline-block;
-}
+}*/
+
 li {
   list-style: none;
+}
+.content {
+  width: 60%;
+  margin-right: 0;
+}
+.name {
+  font-size: 2em;
+  border-bottom: 1px solid white;
 }
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+
 /*
  * Hide visually and from screen readers:
  */
+
 .hidden {
   display: none !important;
 }
@@ -137,6 +160,7 @@ li {
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -153,6 +177,7 @@ li {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -165,6 +190,7 @@ li {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+
 .invisible {
   visibility: hidden;
 }
@@ -180,10 +206,10 @@ li {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clearfix:before, .clearfix:after {
   content: " ";
   /* 1 */
-  
   display: table;
   /* 2 */
 }
@@ -196,6 +222,7 @@ li {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
@@ -208,6 +235,7 @@ li {
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
+
 @media print {
   *, *:before, *:after {
     background: transparent !important;
@@ -230,7 +258,6 @@ li {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  
   a[href^="#"]:after, a[href^="javascript:"]:after {
     content: "";
   }
@@ -242,7 +269,6 @@ li {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-  
   thead {
     display: table-header-group;
   }
