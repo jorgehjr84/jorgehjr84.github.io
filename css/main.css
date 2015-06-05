@@ -174,15 +174,15 @@ a {
 }
 a .arrow {
   position: relative;
-  top: 10em;
   color: white;
   width: 2.3em;
   height: 2em;
+  bottom: 8em;
 }
 #posts-page {
   background-color: white;
   width: inherit;
-  top: 17.24em;
+  top: 18.5em;
   position: relative;
   display: block;
   height: auto;
