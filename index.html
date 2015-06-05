@@ -2,62 +2,85 @@
 <html class="no-js" lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Jorge Hernandez's Blog Site</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Jorge Hernandez's Blog Site</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <section class="myName">
-                Jorge Hernandez
-            </section>
-            <ul class="tabs">
-                <li>About</li>
-                <li>Posts</li>
-                <li>Social</li>
-            </ul>
+  <div id="container">
 
+    <div class="main-page">
+      <div id="header">
+        <section class="homebutton">
+          Jorge Hernandez
+        </section>
+        <ul class="tabs">
+          <li>Posts</li>
+          <li>About</li>
+          <li>Social</li>
+        </ul>
+
+      </div>
+      <!--End of header section -->
+
+      <div class="content">
+        <img class="logo">
+        <div class="name">
+          Jorge Hernandez
         </div>
-        <!--End of head section -->
+        <div class="title">
+          My journey into the realm of coding </div>
+      </div>
+      <!--End of content div -->
 
-        <div class="Content">
-            <img>
-            <div class="Name">
-                Jorge Hernandez
-            </div>
-            <div class="title">
-                Blog Title
-            </div>
-
-
-            <a>
-                <!--Need to research how to use this a tag and link it to my secondary page-->
-
-
+      <div class="footer">
+        <div id="circle">
+          <a href="arrow">
+            <img class="arrow" src="pictures/arrow.png">
+          </a>
+          <!--Need to research how to use this a tag and link it to my secondary page-->
         </div>
-        <!--End of content div -->
-
-
+      </div>
+      <!--End of Footer main page-->
 
     </div>
-    <!--End of container div-->
+    <!--End of "main page" div-->
 
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="vendor/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <div id="posts-page">
+      <div class="content-2">
+        <img id="page2-picture" src="pictures/picture-2.jpg" height="250em" width="350em">
+        <h2>Posts</h2>
+        <ul>
+          <li class="page-2-links" a href="week-1">Week 1</li>
+          <li class="page-2-links" a href="week-2">Week 2</li>
+          <li class="page-2-links" a href="week-3">Week 3</li>
+          <li class="page-2-links" a href="week-4">Week 4</li>
+        </ul>
 
+      </div>
     </div>
-    <!--End of container div-->
+    <!--End of "Posts Page"-->
+
+
+
+
+
+  </div>
+  <!--End of container -->
+
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
