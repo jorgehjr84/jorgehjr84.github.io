@@ -64,7 +64,13 @@
           <li class="page-2-links" a href="week-3">Week 3</li>
           <li class="page-2-links" a href="week-4">Week 4</li>
         </ul>
-
+        
+        <ul>
+            {% for post in site.posts %}
+            <li> <a href="{{post.url}}">{{post.title}}</a> </li>
+            {{ item }}
+            {% endfor %}
+            </ul>
       </div>
     </div>
     <!--End of "Posts Page"-->
