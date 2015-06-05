@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Jorge Hernandez's Blog Site</title>
+  <title>{{page.title}}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -66,6 +66,10 @@
         </ul>
         
         <ul>
+          ---
+          title My journey into the realm of coding
+          ---
+          
             {% for post in site.posts %}
             <li> <a href="{{post.url}}">{{post.title}}</a> </li>
             {{ item }}
