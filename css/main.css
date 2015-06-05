@@ -100,8 +100,14 @@ body {
   color: white;
   font-size: 2em;
 }
-.container {
+#container {
+  display: block;
   width: 100%;
+  position: relative;
+}
+#main-page {
+  display: inline-block;
+  position: absolute;
 }
 #header {
   display: inline-block;
@@ -166,9 +172,38 @@ a {
   bottom: .35em;
 }
 a .arrow {
+  position: relative;
+  top: 10em;
   color: white;
   width: 2.3em;
   height: 2em;
+}
+#posts-page {
+  background-color: darkgrey;
+  width: inherit;
+  top: 17.24em;
+  position: relative;
+  display: block;
+}
+.content-2 {
+  display: inline-block;
+}
+.content-2 img {
+  position: relative;
+  top: 5em;
+  left: 2em;
+}
+h2 {
+  position: relative;
+  left: 15em;
+  bottom: 5em;
+}
+ul .page-2-links {
+  text-align: center;
+  position: relative;
+  left: 18.5em;
+  bottom: 7em;
+  padding: 0.5em;
 }
 
 /* ==========================================================================
