@@ -112,6 +112,7 @@ body {
 #header {
   display: inline-block;
   width: 100%;
+  position: fixed;
 }
 #header .homebutton {
   width: 40%;
@@ -179,11 +180,12 @@ a .arrow {
   height: 2em;
 }
 #posts-page {
-  background-color: darkgrey;
+  background-color: white;
   width: inherit;
   top: 17.24em;
   position: relative;
   display: block;
+  height: auto;
 }
 .content-2 {
   display: inline-block;
@@ -197,6 +199,7 @@ h2 {
   position: relative;
   left: 15em;
   bottom: 5em;
+  color: black;
 }
 ul .page-2-links {
   text-align: center;
@@ -204,6 +207,7 @@ ul .page-2-links {
   left: 18.5em;
   bottom: 7em;
   padding: 0.5em;
+  color: black;
 }
 
 /* ==========================================================================
