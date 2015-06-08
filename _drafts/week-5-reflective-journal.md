@@ -1,4 +1,4 @@
-### We were HOODWINKED !!!!
+### WE WERE HOODWINKED !!!!
 
 Week 5 was our half time week and so far it has been my favorite week here at TIY. It was definitely not what I expected when I 
 heard we were going to have a half time week. Originally I thought maybe we would just work on some random things we had issues with
