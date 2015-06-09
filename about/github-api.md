@@ -51,10 +51,14 @@ Yes the limit is 5,000 request per hour. (For unauthenticated requests the limit
 - What limitations exist on fetching more results?
 
 - What is the basic structure of the results?
+
 30 events per page. Fetching up to 10 pages is supported for a total of 300 events
-What fields are included in each result?
-What are the data types for each field?
-What are some of the different values for the type field?
+
+- What fields are included in each result?
+
+- What are the data types for each field?
+
+- What are some of the different values for the type field?
 
 
 ```
