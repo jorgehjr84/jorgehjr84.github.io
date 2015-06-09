@@ -29,3 +29,63 @@ Yes the limit is 5,000 request per hour. (For unauthenticated requests the limit
 # What if there is a lot of data returned?
 - How can I ask for a more (or less) data from a request?
 - How do I know that there is more data available?
+
+
+### What are the endpoints for fetching...
+- the profile data for a user?
+"https://api.github/users/octocat"
+- the organizations a user belongs to?
+"https://api.github/users/octocat/orgs"
+- the repositories a user has created?
+"https://api.github/users/octocat/repos"
+- a filtered list of repositories?
+????
+- a sorted list of repositories?
+????
+- public events for a user?
+"https://api.github/users/octocat/events"
+
+###When fetching public events for a user...
+- How many results are returned by default?
+30 
+- What limitations exist on fetching more results?
+
+- What is the basic structure of the results?
+30 events per page. Fetching up to 10 pages is supported for a total of 300 events
+What fields are included in each result?
+What are the data types for each field?
+What are some of the different values for the type field?
+
+
+```
+[
+  {
+    "type": "Event",
+    "public": true,
+    "payload": {
+    },
+    "repo": {
+      "id": 3,
+      "name": "octocat/Hello-World",
+      "url": "https://api.github.com/repos/octocat/Hello-World"
+    },
+    "actor": {
+      "id": 1,
+      "login": "octocat",
+      "gravatar_id": "",
+      "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+      "url": "https://api.github.com/users/octocat"
+    },
+    "org": {
+      "id": 1,
+      "login": "github",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github",
+      "avatar_url": "https://github.com/images/error/octocat_happy.gif"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "id": "12345"
+  }
+]
+
+```
