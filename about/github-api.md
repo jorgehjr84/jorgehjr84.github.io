@@ -93,3 +93,39 @@ Yes the limit is 5,000 request per hour. (For unauthenticated requests the limit
 ]
 
 ```
+
+
+
+###How can I use the Github API to...
+- get all the comments for a particular issue?
+```
+GET /repos/:owner/:repo/issues/:number/comments
+```
+
+- add a comment to an issue?
+```
+POST /repos/:owner/:repo/issues/:number/comments
+```
+
+
+###How can I use the jQuery API to...
+- get the HTML contents of an element?
+```
+.html()
+```
+
+- create a new HTML element?
+```
+first select the parent element and use the .append function. For example
+
+$(#id1).append("<div>What sup</div>
+```
+
+- add an HTML element to the page? (I am not sure how to what they mean by this question)
+
+
+###How can I use the Lodash API to...
+
+- replace placeholders with values from an object?
+(Not sure if you would use the '._get' function for this)
+- repeat code for every item of an array?
