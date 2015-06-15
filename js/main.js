@@ -19,6 +19,4 @@
 
   }); //End of document ready function
 
-//
-
 })(window);
