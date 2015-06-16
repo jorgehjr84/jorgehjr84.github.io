@@ -1,36 +1,53 @@
----
-title: My journey into the realm of coding
----
 <!doctype html>
 <html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{page.title}}</title>
+  <title>Jorge Hernandez's Blog</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--bower:css-->
+  <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+  <!--endbower-->
 
-
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+
+  <section class="grid">
+    <div class="unit">1</div>
+    <div class="unit">2</div>
+    <div class="unit">3</div>
+    <div class="unit">4</div>
+    <div class="unit">5</div>
+    <div class="unit">6</div>
+    <div class="unit">7</div>
+    <div class="unit">8</div>
+    <div class="unit">9</div>
+    <div class="unit">10</div>
+    <div class="unit">11</div>
+    <div class="unit">12</div>
+  </section>
+
+
+  <section class="unit-span-8"></section>
+  <section class="unit-span-2"></section>
+
   <div id="container">
 
     <div class="main-page">
       <div id="header">
         <section class="homebutton">
-          Jorge Hernandez
+          <ul id="tabs">
+            <li class="name-tab">Jorge Hernandez</li>
+            <li class="Posts-tab">Posts</li>
+            <li class="About-tab">About</li>
+            <li class="Social-tab">Social</li>
+          </ul>
         </section>
-        <ul class="tabs">
-          <li>Posts</li>
-          <li>About</li>
-          <li>Social</li>
-        </ul>
-
       </div>
       <!--End of header section -->
 
@@ -39,8 +56,7 @@ title: My journey into the realm of coding
         <div class="name">
           Jorge Hernandez
         </div>
-        <div class="title">
-          My journey into the realm of coding </div>
+        <div class="title">My journey into the realm of coding</div>
       </div>
       <!--End of content div -->
 
@@ -67,14 +83,14 @@ title: My journey into the realm of coding
           <li class="page-2-links" a href="week-3">Week 3</li>
           <li class="page-2-links" a href="week-4">Week 4</li>
         </ul>
-        
+
         <ul>
-         
-          
-            {% for post in site.posts %}
-            <li> <a href="{{post.url}}">{{post.title}}</a> </li>
-            {% endfor %}
-            </ul>
+
+
+          {% for post in site.posts %}
+          <li> <a href="{{post.url}}">{{post.title}}</a> </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
     <!--End of "Posts Page"-->
@@ -86,10 +102,15 @@ title: My journey into the realm of coding
   </div>
   <!--End of container -->
 
+  <!--bower:js-->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/lodash/lodash.js"></script>
+  <!--endbower-->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
 </body>
+
 </html>

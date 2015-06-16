@@ -1,0 +1,21 @@
+.grid{
+  $grid-width : 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: lightgrey;
+  border: 2px solid cornflowerblue;
+  .unit{
+    float:left;
+    width: ($grid-width/12);
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+  .unit-span-8{
+    @extend .unit ;
+    width: ($grid-width/12)*8;
+  }
+  .unit-span-2{
+    @extend .unit;
+    width:($grid-width/12)*2;
+  }
