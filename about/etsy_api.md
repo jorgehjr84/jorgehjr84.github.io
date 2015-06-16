@@ -10,7 +10,7 @@
   * [ ] How does the API handle authentication?
   * The Etsy API uses OAuth
     * [ ] Do I need to authenticate?
-    * Not for the public perspective. The public persepctive would be something like a shop banner.
+    *Every request is going to require an API key. Authenticated means that a user has logged in.
     * [ ] What can I do with an unauthenticated request?
     * 
     * [ ] How can I authenticate my request?
