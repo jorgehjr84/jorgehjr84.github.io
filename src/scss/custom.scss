@@ -17,9 +17,23 @@ body {
   li {
     list-style: none;
     float: left;
+    margin-left: 1em;
   }
-
+.name-tab{
+  margin-right: 17em;
 }
+ .name-tab ::before{
+   content: '\270e';
+  }
+}
+
+.name{
+  position: relative;
+  left: 9em;
+  font-size: 1.5em;
+  width: unit-span-5;
+}
+
 /* #container {
  display: block;
  width: 100%;

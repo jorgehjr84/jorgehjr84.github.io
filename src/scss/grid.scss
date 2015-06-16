@@ -10,12 +10,26 @@
     box-sizing: border-box;
     text-align: center;
   }
-}
+  .unit-span-12{
+    @extend .unit;
+    width: ($grid-width/12)*12;
+  }
   .unit-span-8{
-    @extend .unit ;
+    @extend .unit;
     width: ($grid-width/12)*8;
+  }
+  .unit-span-5{
+    @extend .unit;
+    width: ($grid-width/12)*5;
   }
   .unit-span-2{
     @extend .unit;
-    width:($grid-width/12)*2;
+    width: ($grid-width/12)*2;
   }
+  .unit-span-3{
+    @extend .unit;
+    width: ($grid-width/12)*3;
+  }
+
+
+}
