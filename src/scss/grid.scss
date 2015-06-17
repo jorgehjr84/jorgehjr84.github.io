@@ -1,14 +1,17 @@
 .grid{
   $grid-width : 100%;
-  max-width: 100%;
+  $unit-width: ($grid-width/12)*1;
+  max-width: $grid-width;
   margin: 0 auto;
   background-color: lightgrey;
-  border: 2px solid cornflowerblue;
+  outline: 2px solid blue;
+  box-sizing: border-box;
+  @extend .clearfix;
   .unit{
     float:left;
-    width: ($grid-width/12);
-    box-sizing: border-box;
-    text-align: center;
+    width: $unit-width;
+    background-color: darkgrey;
+    outline: 1px solid black;
   }
   .unit-span-12{
     @extend .unit;

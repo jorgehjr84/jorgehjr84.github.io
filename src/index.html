@@ -17,20 +17,20 @@
 
 <body>
 
-  <section class="grid">
-    <div class="unit">1</div>
-    <div class="unit">2</div>
-    <div class="unit">3</div>
-    <div class="unit">4</div>
-    <div class="unit">5</div>
-    <div class="unit">6</div>
-    <div class="unit">7</div>
-    <div class="unit">8</div>
-    <div class="unit">9</div>
-    <div class="unit">10</div>
-    <div class="unit">11</div>
-    <div class="unit">12</div>
-  </section>
+  <!--   <section class="grid">
+  <div class="unit">1</div>
+  <div class="unit">2</div>
+  <div class="unit">3</div>
+  <div class="unit">4</div>
+  <div class="unit">5</div>
+  <div class="unit">6</div>
+  <div class="unit">7</div>
+  <div class="unit">8</div>
+  <div class="unit">9</div>
+  <div class="unit">10</div>
+  <div class="unit">11</div>
+  <div class="unit">12</div>
+</section> -->
 
   <section class="unit-span-12"></section>
   <section class="unit-span-2"></section>
@@ -42,7 +42,8 @@
       <div id="header">
         <section class="homebutton">
           <ul id="tabs">
-            <li class="name-tab">Jorge Hernandez</li>
+            <li class="name-tab">
+              <img class="logo"> Jorge Hernandez</li>
             <li class="Posts-tab">Posts</li>
             <li class="About-tab">About</li>
             <li class="Social-tab">Social</li>
@@ -52,29 +53,26 @@
       </div>
       <!--End of header section -->
 
-      <section class="unit-span-8">
-        <div class="content">
-          <section class="unit-span-5">
-            <img class="logo">
-            <div class="name">
-              Jorge Hernandez
-            </div>
-          </section>
-          <div class="title">My journey into the realm of coding</div>
+      <div class="content">
+        <img class="logo">
+        <div class="name">
+          Jorge Hernandez
         </div>
-      </section>
+        <div class="title">My journey into the realm of coding</div>
+
+        <section id="main_page_footer">
+          <a class="arrow" href="arrow">
+            <img class="arrow" src="../pictures/arrow.png">
+          </a>
+        </section>
+        <!--End of Footer main page-->
+
+
+      </div>
 
       <!--End of content div -->
 
-      <div class="footer">
-        <div id="circle">
-          <a href="arrow">
-            <img class="arrow" src="pictures/arrow.png">
-          </a>
-          <!--Need to research how to use this a tag and link it to my secondary page-->
-        </div>
-      </div>
-      <!--End of Footer main page-->
+
 
     </div>
     <!--End of "main page" div-->
@@ -90,13 +88,6 @@
           <li class="page-2-links" a href="week-4">Week 4</li>
         </ul>
 
-        <ul>
-
-
-          {% for post in site.posts %}
-          <li> <a href="{{post.url}}">{{post.title}}</a> </li>
-          {% endfor %}
-        </ul>
       </div>
     </div>
     <!--End of "Posts Page"-->
