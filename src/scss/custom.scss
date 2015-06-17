@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+.main-page{
+  height: 768px;
+
+
+}
+
 #tabs{
   display: inline-block;
   margin: 0;
@@ -38,7 +44,6 @@ body {
 
 .content{
 
-  height: 768px;
 
   .name{
     width: 60%;
@@ -64,10 +69,17 @@ body {
 
     .arrow{
       width: 2.5em;
+      cursor: pointer;
       }
 
   }
+}
 
+
+
+#posts-page{
+  height: 768px;
+  background-color: white;
 
 
 }

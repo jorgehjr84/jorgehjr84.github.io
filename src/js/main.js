@@ -7,15 +7,14 @@
 
     $('.arrow').click(function(scrollDown) {
 
-      $('#posts-page').animate({
-
-
-
-      }, 1000);
-
+      $('html,body').animate({
+        scrollTop: $('#posts-page').offset().top
+      }, 800);
     })
 
-
+    // $('html, body').animate({
+    //     scrollTop: $("#target-element").offset().top
+    // }, 1000);
 
   }); //End of document ready function
 
