@@ -7,14 +7,18 @@
 
     $('.arrow').click(function(scrollDown) {
 
-      $('#posts-page').animate({
+      $('html,body').animate({
+        scrollTop: $('#posts-page').offset().top
+      }, 800);
+    }); //End of Scroll for arrow click
 
 
+    $('.posts-tab').click(function(scrollDown) {
 
-      }, 1000);
-
-    })
-
+      $('html, body').animate({
+        scrollTop: $('#posts-page').offset().top
+      }, 800);
+    });
 
 
   }); //End of document ready function

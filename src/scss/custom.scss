@@ -14,15 +14,23 @@ body {
   width: 100%;
 }
 
+.main-page{
+  height: 580px;
+
+
+}
+
 #tabs{
   display: inline-block;
   margin: 0;
   padding: 0;
 
+
   li {
     list-style: none;
     float: left;
     margin-left: 1em;
+    cursor: pointer;
   }
 .name-tab{
   margin: 0;
@@ -38,7 +46,6 @@ body {
 
 .content{
 
-  height: 768px;
 
   .name{
     width: 60%;
@@ -64,10 +71,24 @@ body {
 
     .arrow{
       width: 2.5em;
+      cursor: pointer;
       }
 
   }
+}
 
 
+
+#posts-page{
+  height: 580px;
+  background-color: white;
+
+}
+
+#page2-picture{
+
+  position: relative;
+  top: 3em;
+  left:2em;
 
 }

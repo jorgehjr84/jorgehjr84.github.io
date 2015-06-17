@@ -1,6 +1,8 @@
+
+
 .grid{
-  $grid-width : 100%;
-  $unit-width: ($grid-width/12)*1;
+  $grid-width : 100% !global;
+  $unit-width: ($grid-width/12)*1 !global;
   max-width: $grid-width;
   margin: 0 auto;
   background-color: lightgrey;
