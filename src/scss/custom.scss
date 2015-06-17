@@ -25,10 +25,12 @@ body {
   margin: 0;
   padding: 0;
 
+
   li {
     list-style: none;
     float: left;
     margin-left: 1em;
+    cursor: pointer;
   }
 .name-tab{
   margin: 0;
@@ -80,6 +82,5 @@ body {
 #posts-page{
   height: 768px;
   background-color: white;
-
 
 }

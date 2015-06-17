@@ -10,11 +10,16 @@
       $('html,body').animate({
         scrollTop: $('#posts-page').offset().top
       }, 800);
-    })
+    }); //End of Scroll for arrow click
 
-    // $('html, body').animate({
-    //     scrollTop: $("#target-element").offset().top
-    // }, 1000);
+
+    $('.posts-tab').click(function(scrollDown) {
+
+      $('html, body').animate({
+        scrollTop: $('#posts-page').offset().top
+      }, 800);
+    });
+
 
   }); //End of document ready function
 
