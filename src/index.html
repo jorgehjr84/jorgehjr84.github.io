@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--bower:css-->
   <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+
   <!--endbower-->
 
   <link rel="stylesheet" href="css/main.css">
@@ -17,52 +19,37 @@
 
 <body>
 
-  <!--   <section class="grid">
-  <div class="unit">1</div>
-  <div class="unit">2</div>
-  <div class="unit">3</div>
-  <div class="unit">4</div>
-  <div class="unit">5</div>
-  <div class="unit">6</div>
-  <div class="unit">7</div>
-  <div class="unit">8</div>
-  <div class="unit">9</div>
-  <div class="unit">10</div>
-  <div class="unit">11</div>
-  <div class="unit">12</div>
-</section> -->
-
-  <section class="unit-span-12"></section>
-  <section class="unit-span-2"></section>
-  <section class="unit-span-3"></section>
-
   <div id="container">
-
     <div class="main-page">
-      <div id="header">
-        <section class="homebutton">
-          <ul id="tabs">
-            <li class="name-tab">
-              <img class="logo"> Jorge Hernandez</li>
-            <li class="posts-tab">Posts</li>
-            <li class="about-tab">About</li>
-            <li class="social-tab">Social</li>
+      <div class="row">
+        <div id="header">
+          <section class="homebutton">
+            <ul id="tabs" class="col-md-12">
+              <li class="name-tab col-md-3">
+                <img class="logo"> Jorge Hernandez</li>
+              <li class="posts-tab col-md-1 col-md-offset-5">Posts</li>
+              <li class="about-tab col-md-1">About</li>
+              <li class="social-tab col-md-1">Social</li>
 
-          </ul>
-        </section>
+            </ul>
+          </section>
+        </div>
+        <!--End of header section -->
+
       </div>
-      <!--End of header section -->
+      <!--End of header row-->
 
-      <div class="content">
+
+      <div class="content ">
         <img class="logo">
-        <div class="name">
+        <div class="name col-md-6 col-md-offset-3">
           Jorge Hernandez
         </div>
-        <div class="title">My journey into the realm of coding</div>
+        <div class="title col-md-6 col-md-offset-3">My journey into the realm of coding</div>
 
-        <section id="main_page_footer">
+        <section id="main_page_footer col-md-12">
           <!-- <a class="arrow" href="arrow"> -->
-          <img class="arrow" src="../pictures/arrow.png">
+          <img class="arrow col-md-2 col-md-offest-5" src="../pictures/arrow.png">
         </section>
         <!--End of Footer main page-->
 
