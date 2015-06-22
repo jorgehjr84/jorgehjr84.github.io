@@ -1,0 +1,84 @@
+
+
+body {
+  font-family:'Abel', sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+#container{
+  width: 100%;
+}
+
+.main-page{
+  height: 580px;
+  background-image: url("../../pictures/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+
+}
+
+#tabs{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+.name-tab{
+  margin: 0;
+
+
+}
+ .name-tab ::before{
+   content: '\270e';
+  }
+
+}
+
+.content{
+
+
+  .name{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: 1px solid white;
+}
+.title{
+    font-size: 1em;
+    text-align: center;
+    border-top: 1px solid white;
+    margin-top: .25em;
+
+  }
+  #main_page_footer{
+
+
+    .arrow{
+      cursor: pointer;
+      font-size: 1em;
+      }
+
+  }
+}
+
+
+
+#posts-page{
+  height: 580px;
+  background-color: white;
+
+}
+
+#page2-picture{
+
+  position: relative;
+  top: 3em;
+  left:2em;
+
+}
