@@ -129,3 +129,48 @@ $(#id1).append("<div>What sup</div>
 - replace placeholders with values from an object?
 (Not sure if you would use the '._get' function for this)
 - repeat code for every item of an array?
+- 
+
+
+
+###How can I fetch all Issues from the API...
+assigned to a specific user?
+```
+GET /user/issues
+```
+created in a specific repo?
+```
+repos/username/repo-name/issues
+```
+assigned to a specific milestone? ...to any milestone? ...to none?
+```
+https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/milestones?access_token=
+```
+
+that are still open? ...closed? ...either?
+```
+/milestones?state=open? 
+/milestones?state=closed?
+/milestones?state=any?
+```
+
+What is the structure of an Issue resource?
+
+What fields are always returned?
+"url"
+What fields are optionally returned?
+
+What are the types and sample contents of all returned fields?
+
+How can I fetch all Milestones from the API? ...Labels?
+
+What is the structure of the Milestone and Label resources?
+How would I fetch...
+...all the open Issues from a specific repo...
+...with the label "Attendance"...
+...sorted oldest first?
+...with 100% task completion?
+BEAST MODE How would I...
+...fetch Issues for an assigned Milestone...
+...group them by Label...
+...and calculate percentage of total Issues?
