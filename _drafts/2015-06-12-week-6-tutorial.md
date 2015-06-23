@@ -50,7 +50,6 @@ comes back looking something like this
       "caption": "A Dallas Police Department squad car that was shot at on Saturday morning. No officers were injured.",
       "copyright": "Dallas Police Department"
     }
-    
     ```
     
     At that point you can pick and choose what data you want to display.
