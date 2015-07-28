@@ -6,7 +6,6 @@ body {
   font-family: 'Abel', sans-serif;
   color: white;
   font-size: 2em; }
-  background-size: cover;
 
 #container {
   display: block;
@@ -20,18 +19,21 @@ body {
 }
 
 #header {
-
+display: inline-block;
 
   }
-  #tabs{
-    padding:0;
+
+  .tabs{
+    float: right;
+    text-align: right;
+    padding: 1em;
   }
   li{
     list-style-type: none;
   }
 }
 
-#header .homebutton {
+/* #header .homebutton {
   width: 40%;
   margin: 0;
   position: absolute;
@@ -125,4 +127,4 @@ ul .page-2-links {
   bottom: 7em;
   padding: 0.5em;
   color: black; }
-}
+} */

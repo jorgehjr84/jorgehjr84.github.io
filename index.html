@@ -1,96 +1,165 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Jorge Hernandez's Blog</title>
-  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--bower:css-->
-  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <!--endbower-->
+  <title>Grayscale - Start Bootstrap Theme</title>
 
-  <link rel="stylesheet" href="src/css/main.css">
-  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <!-- Bootstrap Core CSS -->
+  <link href="src/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="src/css/grayscale.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="src/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-  <div id="container">
-    <div id="main-page">
-      <div class="row">
-        <div id="header" class="col-md-12">
-          <section class="homebutton">
-            <ul id="tabs" class="col-md-12">
-              <li class="name-tab col-md-3">
-                <img class="logo"> Jorge Hernandez</li>
-              <li class="posts-tab col-md-1 col-md-offset-6">Posts</li>
-              <li class="about-tab col-md-1">About</li>
-              <li class="social-tab col-md-1">Social</li>
-
-            </ul>
-          </section>
-        </div>
-        <!--End of header section -->
-
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <i class="fa fa-play-circle"></i>
+          <span class="light">Start</span> Bootstrap
+        </a>
       </div>
-      <!--End of header row-->
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#download">Download</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
 
-      <!-- <div class="content ">
-        <img class="logo">
-        <div class="name col-md-6 col-md-offset-3">
-          Jorge Hernandez
+  <!-- Intro Header -->
+  <header class="intro">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading">Grayscale</h1>
+            <p class="intro-text">A free, responsive, one page Bootstrap theme.
+              <br>Created by Start Bootstrap.</p>
+            <a href="#about" class="btn btn-circle page-scroll">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
         </div>
-        <div class="title col-md-6 col-md-offset-3">My journey into the realm of coding</div>
-       -->
-      <section id="main_page_footer col-md-12">
-        <!-- <a class="arrow" href="arrow"> -->
-        <img class="arrow col-md-2 col-md-offest-5" src="../pictures/arrow.png">
-      </section>
-      <!--End of Footer main page-->
-
-
+      </div>
     </div>
+  </header>
 
-    <!--End of content div -->
-  </div>
-  <!--End of "main page" div-->
-
-  <div id="posts-page">
-    <div class="content-2">
-      <!--         <img id="page2-picture" src="../pictures/posts_page.jpg" height="250em" width="350em">
- -->
-      <!-- <h2>Posts</h2>
-        <ul>
-          <li class="page-2-links" a href="week-1">Week 1</li>
-          <li class="page-2-links" a href="week-2">Week 2</li>
-          <li class="page-2-links" a href="week-3">Week 3</li>
-          <li class="page-2-links" a href="week-4">Week 4</li>
-        </ul> -->
-
+  <!-- About Section -->
+  <section id="about" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>About Grayscale</h2>
+        <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and
+          you can use it for any purpose, personal or commercial.</p>
+        <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+        <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+      </div>
     </div>
-  </div>
-  <!--End of "Posts Page"-->
+  </section>
 
+  <!-- Download Section -->
+  <section id="download" class="content-section text-center">
+    <div class="download-section">
+      <div class="container">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Download Grayscale</h2>
+          <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Contact Start Bootstrap</h2>
+        <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+        <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+        </p>
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <!-- Map Section -->
+  <div id="map"></div>
 
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Your Website 2014</p>
+    </div>
+  </footer>
 
-  </div>
-  <!--End of container -->
+  <!-- jQuery -->
+  <script src="src/js/jquery.js"></script>
 
-  <!--bower:js-->
-  <script src="bower_components/modernizr/modernizr.js"></script>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/lodash/lodash.js"></script>
-  <!--endbower-->
-  <script src="src/js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="src/js/plugins.js"></script>
-  <script src="src/js/main.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="src/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="src/js/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="src/js/grayscale.js"></script>
 
 </body>
 
