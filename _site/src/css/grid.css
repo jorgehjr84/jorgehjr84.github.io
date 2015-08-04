@@ -72,7 +72,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@import "custom"
+body {
+  background-image: url("../../pictures/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2em; }
+
+.main-page {
+  height: 580px; }
+
+#main_page_links {
+  display: inline-block; }
+  #main_page_links .main_links {
+    list-style: none;
+    background-color: black; }
+
+.tab_link {
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+  cursor: pointer; }
+
+.name-tab {
+  margin: 0; }
+
+.name-tab ::before {
+  content: '270e'; }
+
+.content .name {
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid white; }
+
+.content .title {
+  width: 70%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid white;
+  margin-top: .2em; }
+
+.content #main_page_footer {
+  position: relative;
+  left: 16em;
+  top: 7em; }
+  .content #main_page_footer .arrow {
+    width: 2.5em;
+    cursor: pointer; }
+
+#posts-page {
+  height: 580px;
+  background-color: white; }
+
+#page2-picture {
+  position: relative;
+  top: 3em;
+  left: 2em; }
 
 /* ==========================================================================
    Helper classes
