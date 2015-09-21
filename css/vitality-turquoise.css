@@ -99,7 +99,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #41c4ab;
+  color: white;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -127,8 +127,8 @@ h5,
 h6 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
-}
+/*   text-transform: uppercase;
+ */}
 @media (min-width: 481px) {
   h1 {
     font-size: 52px;
