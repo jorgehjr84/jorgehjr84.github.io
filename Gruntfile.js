@@ -184,15 +184,32 @@ module.exports = function(grunt) {
                     spawn: false,
                 }
             },
-        }
+        },
+        browserSync: {
+    dev: {
+      bsFiles: {
+        src: [
+          'assets/css/*.css',
+          '*.html'
+        ]
+      },
+      options: {
+        watchTask: true,
+        server: './'
+      }
+    }
+  }
 
-    });
+});
+
 
     // Load Tasks
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-browser-sync');
+
 
     // Tasks
-    grunt.registerTask('default', ['less']);
+    grunt.registerTask('default', ['browserSync', 'watch']);
 };
