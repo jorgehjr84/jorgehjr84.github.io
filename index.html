@@ -39,7 +39,7 @@
   <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
-  <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css">
+  <link href="css/vitality-aqua.css" rel="stylesheet" type="text/css">
   <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
   <!-- IE8 support for HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -95,23 +95,28 @@
     <!-- /.container -->
   </nav>
   <header style="background-image: url('pix/background.jpg');">
+    <div id="main_page_contact">
+
     <div class="intro-content">
       <img src="" class="img-responsive img-centered" alt="">
       <div class="brand-name">Jorge Hernandez</div>
       <hr class="colored">
+
       <div class="brand-name-subtext">An Online Portfolio </div>
+
       <h4>407.334.7103</h4>
       <h4>
         <a href="mailto:jorge_l_hernandez@yahoo.com?subject=I saw your portfolio and ...">jorge_l_hernandez@yahoo.com</a>
       </h4>
       <ul class="col-lg-12 col-lg-offset-4">
-        <li class="stayinTouchList col-lg-1"><a href="https://twitter.com/jorge_H_jr" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+        <li class="social_links col-lg-1"><a href="https://github.com/jorgehjr84" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
         </li>
-        <li class="stayinTouchList col-lg-1"><a href="https://www.linkedin.com/profile/view?id=240705161&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+        <li class="social_links col-lg-1"><a href="https://www.linkedin.com/profile/view?id=240705161&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
         </li>
-        <li class="stayinTouchList col-lg-1"><a href="https://github.com/jorgehjr84" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+        <li class="social_links col-lg-1"><a href="https://twitter.com/jorge_H_jr" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
         </li>
       </ul>
+    </div>
     </div>
     <div class="scroll-down">
       <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
@@ -120,10 +125,10 @@
   <section id="about">
     <div class="container wow fadeIn">
 
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 col-md-offset-3 text-center" id="about_section">
         <h3>Hi, my name is Jorge Hernandez</h3>
         <hr class="colored">
-        <p>I am a web developer who recently graduated from The Iron Yard Orlando. I transitioned to front end development from a career as an established Lighting Director after working tech conferences that peaked my interest.</p>
+        <p>I am a web developer who recently graduated from The Iron Yard Orlando. I transitioned to front end development from a career as an established Lighting Director. After working tech conferences for years, I knew that a career in tech was where I needed to be.</p>
         <br>
         <p>I have always loved problem-solving. I come from a background where I had to think on my feet every day, and I welcome the new learning experiences I will encounter as a software developer.</p>
       </div>
@@ -150,9 +155,11 @@
           <span class="sr-only">70% Complete (success)</span>
         </div>
       </div> -->
-        <h3 class="col-lg-6">Angular JS, Jquery, and Vanilla JS</h3>
+      <div class="col-lg-6">
+        <h3 >Angular JS, Jquery, and Vanilla JS</h3>
         <p>Worked closely with Angular JS and have a great understanding of dependancy injections, as well as using directives when it comes to Angular </p>
-        <p>Worked with Vanilla JS to create basic functionality on multiple TIY Assignements</p>
+        <p>Worked with Vanilla JS to create basic functionality on multiple TIY Assignments</p>
+      </div>
 
         <!-- <div class="progress">
       <div class="progress-bar  progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
@@ -186,23 +193,59 @@
   <section id="process" class="services">
     <div class="container">
       <div class="row text-center">
-        <div class="col-lg-12 wow fadeIn">
+        <div id="resume_section" class="col-lg-12 wow fadeIn">
           <h2>Resume</h2>
           <hr class="colored">
           <a href="docs/img/Jorge L Hernandez JR Resume v.3.pdf" target="_blank" class="btn btn-lg btn-outline">
             <i class="fa fa-download"></i> Download Resume
           </a>
           <!-- Beginning of detailed resume section -->
-          <div id="detailed_resume">
-            <h4>Experience</h4>
-            <h5>Owner LAV Productions LLC, Orlando September 2008 – Present</h5>
-            <h5>Freelance Lighting Director, Orlando March 2007 – March 2015</h5>
-            <h5>Swank Audio Visuals, Orlando/Miami, FL April 2004 - March 2007</h5>
-            <h5>Walgreen’s Pharmacy, Coral Springs, FL October 2000-April 2004</h5>
-            <h4>Education</h4>
-            <h5>The Iron Yard Orlando, FL Completed July 2015</h5>
-            <h5>Full Sail Real World Education, Winter Park, FL Completed October 2003</h5>
-            <h5>Atlantic Technical Center, Coconut Creek, FL Completed June 2002</h5>
+          <div id="detailed_resume" >
+            <h3>Experience</h3>
+
+      <!-- Beginning of Resume Experience Section -->
+      <div class="col-lg-12">
+
+          <div class="col-lg-6">
+            <h4>Owner LAV Productions LLC</h4> <h5 class="resume_date">Orlando September 2008 – Present</h5>
+          </div>
+
+          <div class="col-lg-6">
+            <h4>Freelance Lighting Director</h4> <h5 class="resume_date">Orlando March 2007 – March 2015</h5>
+          </div>
+
+          <div class="col-lg-6">
+            <h4>Swank Audio Visuals</h4>  <h5 class="resume_date">Orlando/Miami, FL April 2004 - March 2007</h5>
+          </div>
+            <h4>Walgreen’s Pharmacy</h4> <h5 class="resume_date">Coral Springs, FL October 2000-April 2004</h5>
+          </div>
+          <!-- End of Resume Experience Section -->
+
+          <!-- Beginning of Resume Education Section -->
+          <div class="col-lg-12">
+            <h3>Education</h3>
+            <div class="col-lg-6">
+              <h4>The Iron Yard</h4>
+                <h5 class="resume_date">Orlando, FL Completed July 2015</h5>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Full Sail Real World Education</h4>
+                <h5 class="resume_date">Winter Park, FL Completed October 2003</h5>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Atlantic Technical Center</h4>
+                <h5 class="resume_date">Coconut Creek, FL Completed June 2002</h5>
+            </div>
+
+          <div class="col-lg-6">
+            <h4>JP Taravella HS</h4>
+              <h5 class="resume_date">Coral Springs, FL Completed June 2002</h5>
+          </div>
+        </div>
+          <!-- End of Resume Education Section -->
+
           </div>
           <!-- End of detailed resume section -->
         </div>
@@ -254,18 +297,16 @@
   <section id="contact">
     <div class="container wow fadeIn">
       <div class="">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 col-md-offset-3 text-center">
           <h2>Contact Me</h2>
           <hr class="colored">
         </div>
-        <div class="col-lg-6 text-center">
-          <h2>Stay In Touch</h2>
-          <hr class="colored">
-        </div>
+
       </div>
+
       <div class="row content-row">
         <!-- Beginning of Contact Section -->
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 col-md-offset-3 text-center">
           <h3>Jorge Hernandez</h3>
           <h4>Orlando,FL</h4>
           <h4>407.334.7103</h4>
@@ -274,19 +315,55 @@
           </h4>
         </div>
         <!-- End of contact section -->
-        <!-- Beginning of Stay in Touch Section -->
-        <div class="col-lg-6 text-center">
-          <ul>
-            <li class="stayinTouchList"><a href="https://twitter.com/jorge_H_jr" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+        <!-- Beginning of Social Section -->
+
+        <div class="col-md-5 col-md-offset-3 text-center">
+          <ul class="col-lg-12 col-lg-offset-4">
+            <li class="social_links col-lg-2"><a href="https://github.com/jorgehjr84" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
             </li>
-            <li class="stayinTouchList"><a href="https://www.linkedin.com/profile/view?id=240705161&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+            <li class="social_links col-lg-2"><a href="https://www.linkedin.com/profile/view?id=240705161&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
             </li>
-            <li class="stayinTouchList"><a href="https://github.com/jorgehjr84" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+            <li class="social_links col-lg-2"><a href="https://twitter.com/jorge_H_jr" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
             </li>
           </ul>
+        </div>
+      </div>
+        <!-- End of Social Section -->
+
+
+
           <style>
             .stayinTouchList {
               list-style-type: none;
+              color: black;
+            }
+            #about_section{
+              padding-top: 6em;
+              padding-bottom: 10.5em;
+            }
+            #skills_section{
+              padding-bottom: 4em;
+            }
+            #resume_section{
+              padding-bottom: 5em;
+            }
+            .resume_date{
+              font-weight: normal;
+            }
+            #contact{
+              padding-bottom: 10em;
+            }
+            .stayinTouchList{
+              padding-left: 6.5em;
+            }
+            .social_links{
+              list-style: none;
+            }
+            #main_page_contact{
+              padding-top: 4em;
+            }
+            .intro-content{
+              padding-top: 5em;
             }
           </style>
 
